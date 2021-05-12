@@ -1,0 +1,204 @@
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 3584, room 16
+tail 0
+chksum 0xb0
+csum 0xb0
+v2843a5ac
+@cp:0
+     ld
+
+Chip ID:        14553003
+Core v.:        2_7_4
+Last reset reason:      Software/System restart
+
+*********************************
+
+    ZG ZRAK - Kvaliteta Zraka
+
+*********************************
+[1a] Connecting to the WiFi ...
+*WM:
+*WM: AutoConnect
+*WM: Connecting as wifi client...
+*WM: Status:
+*WM: 6
+*WM: Using last saved values, should be faster
+*WM: Connection result:
+*WM: 3
+*WM: IP Address:
+*WM: 192.168.1.10
+[1b] Connected to:      Jazzy Designer Loft
+
+        Token stored in EEPROM: 6N69t9ol6O2EGemsvJ4m
+
+        Connecting to the ZG-Zrak Server...
+        Posting to:     http://51.159.164.29:8080/api/v1/provision
+
+        JSON:   {"deviceName":"14553003","provisionDeviceKey":"ha7sb2sf4hl8km1kc                                                                                                                                                             6ja","provisionDeviceSecret":"ip6zretft7y3w6sgfju3"}
+        Return code:    200
+        Response:       {"errorMsg":"Failed to provision device!","status":"FAIL                                                                                                                                                             URE"}
+        Closing connection.
+
+        Most likely device already registered.
+        ERROR: Token unobtained.
+[2] Initializing NTP Client ...
+[3] Initializing PM sensor ...
+[4] Enabling OTA ...
+OTA ready
+
+
+        Current time: 18:41
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       7       8       960     279     32      4       2       2
+
+        Current time: 18:42
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       6       10      912     271     45      6       6       4
+
+        Current time: 18:43
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       6       9       1056    298     35      6       2       2
+
+        Current time: 18:44
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        4       10      13      921     280     73      17      4       2
+
+WiFi Connection OK.
+
+
+        Current time: 18:45
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       8       9       996     299     56      2       2       2
+
+        Current time: 18:46
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       7       10      972     293     53      4       4       4
+
+        Current time: 18:47
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       6       9       984     279     44      6       2       2
+
+        Current time: 18:48
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        3       4       4       762     226     37      2       0       0
+
+        Current time: 18:49
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        3       7       8       945     282     56      6       2       2
+
+        Current time: 18:50
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       6       9       936     272     44      4       4       4
+
+WiFi Connection OK.
+
+
+        Current time: 18:51
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       8       15      939     297     77      15      8       4
+
+        Current time: 18:52
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        4       4       7       708     215     35      4       2       2
+
+        Current time: 18:53
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        3       4       12      762     222     47      12      10      8
+
+        Current time: 18:54
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        4       6       9       840     248     39      6       4       2
+
+WiFi Connection OK.
+
+
+        Current time: 18:55
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        4       6       9       816     252     50      6       4       2
+
+        Current time: 18:56
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        4       6       11      1074    305     42      8       6       4
+
+        Current time: 18:57
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        3       4       8       711     204     27      6       6       4
+
+        Current time: 18:58
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       6       9       855     259     38      4       4       4
+
+        Current time: 18:59
+[5] Read sensor data ...
+        -------- Mass -------   ----------------- Number ------------------
+        Concentration [μg/m3]             Concentration [#/100 cm3]
+        P1.0    P2.5    P10     P0.3    P0.5    P1.0    P2.5    P5.0    P10
+        5       5       9       807     253     44      6       4       4
+
+        Number of averages: 19.
+[6] Posting measurements ...
+
+        Connecting to the ZG-Zrak Server...
+        Posting to:     http://51.159.164.29:8080/api/v1/6N69t9ol6O2EGemsvJ4m/telemetry
+
+        JSON:   {"pm10":9.368421,"pm25":6.105263,"measure_time":1619895600000,"data":{"ESP_id":14553003,"Mass":{"pm01":4.31579,"pm25":6.105263,"pm10":9.368421},"Num":{"n0p3":892.4211,"n0p5":264.9474,"n1p0":46,"n2p5":6.526316,"n5p0":4,"n10p0":3.052632}}}
+        Return code:    200
+        Response:
+        Closing connection.
+
+WiFi Connection OK.
