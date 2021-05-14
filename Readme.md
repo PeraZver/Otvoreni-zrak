@@ -33,17 +33,19 @@ Mjereni podaci se ocitavaju svakih 60 sekundi i usrednjavaju preko 1 sat. Prosje
   }
 }
 ```
-### Verdict
-Imamo studije koje su proucavale ovakve low cost senozre, i SPS30 nije prosao bas dobro. Naime, tocnost mu opada kod mjerenja PM10 cestica. Osim toga, moj test u Slavonskom Brodu pokazao je da su mjerene vrijednosti drasticno opale na otvorenom, uz obalu rijeke, na nekih 5°C. Stoga smo odlucili prijeci na Plantowerov PMS7003 senzor, za kojeg se prica po selu da je puno bolji. 
-
 ### Debug
 Senzor emitira poruke i na serijski port. Dovoljno je samo prikljuciti ga preko USB kabela, i PC ce ga skuziti kao COM port (dev/tty na Linuxu). Na portu je vidljivo stanje senzora kao i mjerne vrijednosti (baudrate 115200, 8, N, 1). Aktiviranje komunikacije ce resetirati uredjaj, ali to ne ometa standardan rad sustava.
+
+### Klimerko
+Postoji jedan jako slican open-source projekt za IoT mjerenje kvalitete zraka, imena [Klimerko](https://klimerko.org). Iz tog projekta preuzeli smo 3D dizajn kucista te ga modificirali (dodali nas logotip). Iako korisitimo identicne komponente (izuzev senzora BME280), dizajn nije preuzet s tog projekta. Takodjer, firmware je znatno drugaciji, kao i sucelje prema serveru te web-sizajn. 
 
 ## HW
  * ESP8266 NodeMCU
  * Plantower PMS7003 + beakout board
  * 4-zilni flat kabel
  * Kuciste printano po 3D modelu s projekta [Klimerko](https://github.com/DesconBelgrade/Klimerko/tree/master/Klimerko_Printable_Case)
+
+Zapravo, najbolje je kupiti senzor s ukljucenim kabelom i breakout plocicom, poput [ovoga](https://www.aliexpress.com/item/33041320350.html?spm=a2g0o.productlist.0.0.16451628vJGQLo&algo_pvid=9e941e09-aa4c-4c5a-9300-3834d01949af&algo_expid=9e941e09-aa4c-4c5a-9300-3834d01949af-20&btsid=0bb0623616209892738276079e458b&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_). Jedna strana kabela se naravno prikljuci na plocicu, a druga se klijestima odsijece. Zice se oprezno zaleme za NodeMCU plocicu po nize navedenom planu. Detaljnije upute o montazi dostupne su i na [videu](https://youtu.be/D9VHvuHtT14?t=420) s projekta Klimerko. 
 
 ### Wiring
 |Cable Wire|NodeMCU Pin|Function|
